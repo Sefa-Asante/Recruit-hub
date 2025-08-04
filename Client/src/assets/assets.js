@@ -181,6 +181,32 @@ export const jobsApplied = [
     },
 ];
 
+  const teamMembers = [
+    {
+      name: "Alex Johnson",
+      role: "CEO & Founder",
+      avatar: "AJ",
+      bio: "Alex founded TalentHub with a vision to revolutionize the recruitment process through multimedia profiles.",
+    },
+    {
+      name: "Sarah Williams",
+      role: "CTO",
+      avatar: "SW",
+      bio: "Sarah leads our technical team, bringing over 15 years of experience in building scalable platforms.",
+    },
+    {
+      name: "Michael Chen",
+      role: "Head of Product",
+      avatar: "MC",
+      bio: "Michael oversees product development, focusing on creating intuitive experiences for both candidates and companies.",
+    },
+    {
+      name: "Priya Patel",
+      role: "Head of Marketing",
+      avatar: "PP",
+      bio: "Priya drives our marketing strategy, helping connect talented individuals with their dream companies.",
+    },
+  ]
 export const viewApplicationsPageData = [
     { _id: 1, name: "Richard Sanford", jobTitle: "Full Stack Developer", location: "Bangalore", imgSrc: profile_img },
     { _id: 2, name: "Enrique Murphy", jobTitle: "Data Scientist", location: "San Francisco", imgSrc: profile_img },
