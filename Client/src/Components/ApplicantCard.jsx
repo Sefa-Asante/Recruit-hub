@@ -18,7 +18,7 @@ const navigate = useNavigate()
        </div>
        <p className='text-gray-500 text-sm mt-4' dangerouslySetInnerHTML={{__html:job.description.slice(0,150)}}></p>
        <div className='mt-4 flex gap-4 text-sm'>
-           <button onClick={()=>{navigate( `CandidateData/${job._id}`); scroll(0, 0) }} className='bg-blue-600 text-white px-4 py-2 rounded'>Appy now</button>
+           <button onClick={()=>{navigate( `CandidateData/${job._id}`); scroll(0, 0) }} className='bg-blue-600 text-white px-4 py-2 rounded'>View</button>
            <button onClick={()=>{navigate( `CandidateData/${job._id}`);scroll(0, 0) }} className='text-gray-500 border-gray-500 rounded px-4 py-2'>Learn more</button>
        </div>
       

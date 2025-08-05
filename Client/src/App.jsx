@@ -13,6 +13,7 @@ import ManageJobs from './Pages/Managejobs'
 import ViewApplications from './Pages/ViewApplications'
 import AboutPage from './Pages/About'
 import  'quill/dist/quill.snow.css'
+import CandidatePage from './Pages/CandidatePage'
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/Login' element={<Login />} />
+       <Route path='/candidate-page' element={<CandidatePage />} />
       <Route path='/Company' element={<Company />} />
       <Route path='/about'  element ={<AboutPage />} />
       <Route path='/company/candidateData/:id' element={<CandidateData />} />
